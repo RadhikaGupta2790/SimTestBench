@@ -1,0 +1,43 @@
+# Core dependencies for basic Python functionality and package management
+numpy>=1.21.0            # Numerical processing
+pandas>=1.3.0            # Data processing and manipulation
+requests>=2.25,<3.0      # HTTP requests (if your project needs to communicate over a network)
+
+# Optional but common libraries for data science and engineering
+scipy>=1.7.0             # Scientific computing and signal processing (if applicable)
+sympy>=1.9               # Symbolic mathematics (may be useful for mathematical simulation)
+pyarrow>=5.0.0           # For handling data interchange formats like Parquet
+SQLAlchemy>=1.4.0        # Database toolkit and ORM
+psycopg2>=2.9.0          # PostgreSQL adapter for Python (if using PostgreSQL)
+pyodbc>=4.0.0           # ODBC connection library for connecting to databases
+boto3>=1.17.0            # AWS SDK for Python (if using AWS for data engineering)
+pyspark>=3.2.0           # If you need Spark for big data processing
+
+# Simulation, test-related libraries and utilities
+Cython>=0.29.24          # For compiling C extensions (may be needed for some dependencies)
+pytest>=6.2,<7.0         # Testing framework for unit tests
+pytest-mock>=3.6.0       # Mocking for tests in pytest
+tox>=3.24.0              # Automating test environments
+nose2>=0.11.0            # Another testing framework
+coverage>=5.5            # Test coverage measurement
+pytest-cov>=2.12.0       # Coverage plugin for pytest
+
+# Development tools (code quality, formatting, static checking)
+black>=22.1.0            # Code formatter to maintain consistent style
+flake8>=4.0.0            # Linting for code quality checks
+isort>=5.10.1            # Sorting imports in a standardized way
+mypy>=0.920              # Static typing and type checking
+ipython>=7.31.0          # Enhanced interactive Python shell
+
+# Optional tools for data analysis and reporting (for visualizations)
+matplotlib>=3.4.0        # Plotting and visualization (if needed for your framework)
+seaborn>=0.11.0          # Data visualization (based on matplotlib)
+plotly>=5.3.1            # Interactive graphing and visualization
+dash>=2.1.0              # Web-based dashboarding framework
+
+# Libraries related to documentation (if planning to document your project)
+sphinx>=4.0.0            # Documentation generator (for your project's docs)
+sphinx-rtd-theme>=1.0.0  # Theme for ReadTheDocs-based documentation
+
+# Specific version of PyYAML
+PyYAML==6.0.2           # Compatible with docker-compose 1.29.2

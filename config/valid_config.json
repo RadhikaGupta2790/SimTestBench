@@ -1,0 +1,19 @@
+{
+    "simulation": {
+        "name": "Basic Simulation"
+    },
+    "fault_injection": {
+        "enabled": true,
+        "types": ["packet_loss", "bit_flip"]
+    },
+    "test_cases": [
+        {
+            "name": "Test Case 1",
+            "parameters": {
+                "param1": 1,
+                "param2": 2
+            },
+            "type": "gpio"
+        }
+    ]
+}

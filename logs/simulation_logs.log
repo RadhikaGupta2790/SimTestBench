@@ -1,0 +1,42 @@
+2024-11-27 21:23:28,423 - __main__ - INFO - Starting simulation...
+2024-11-27 21:23:28,423 - __main__ - INFO - Running test case: GPIO Test 1
+2024-11-27 21:23:28,423 - __main__ - INFO - Executing test case: GPIO Test 1 with parameters: {'gpio_pin': 17, 'state': 'high', 'duration': 5}
+2024-11-27 21:23:28,423 - __main__ - INFO - GPIO Test on pin 17: Setting state to high for 5 seconds
+2024-11-27 21:23:33,428 - __main__ - INFO - GPIO Test completed on pin 17: Final state high
+2024-11-27 21:23:33,429 - __main__ - INFO - Running test case: UART Test 1
+2024-11-27 21:23:33,429 - __main__ - INFO - Executing test case: UART Test 1 with parameters: {'port': '/dev/ttyUSB0', 'baud_rate': 9600, 'message': 'Hello, world!'}
+2024-11-27 21:23:33,429 - __main__ - INFO - UART Test on port /dev/ttyUSB0 with baud rate 9600: Sending message 'Hello, world!'
+2024-11-27 21:23:35,434 - __main__ - INFO - UART Test completed on port /dev/ttyUSB0: Sent message 'Hello, world!'
+2024-11-27 21:23:35,434 - __main__ - INFO - Running test case: GPIO Test 2
+2024-11-27 21:23:35,434 - __main__ - INFO - Executing test case: GPIO Test 2 with parameters: {'gpio_pin': 23, 'state': 'low', 'duration': 3}
+2024-11-27 21:23:35,434 - __main__ - INFO - GPIO Test on pin 23: Setting state to low for 3 seconds
+2024-11-27 21:23:38,440 - __main__ - INFO - GPIO Test completed on pin 23: Final state low
+2024-11-27 21:23:38,440 - __main__ - INFO - Running test case: UART Test 2
+2024-11-27 21:23:38,440 - __main__ - INFO - Executing test case: UART Test 2 with parameters: {'port': '/dev/ttyUSB1', 'baud_rate': 19200, 'message': 'Goodbye, world!'}
+2024-11-27 21:23:38,440 - __main__ - INFO - UART Test on port /dev/ttyUSB1 with baud rate 19200: Sending message 'Goodbye, world!'
+2024-11-27 21:23:40,445 - __main__ - INFO - UART Test completed on port /dev/ttyUSB1: Sent message 'Goodbye, world!'
+2024-11-27 21:23:40,446 - __main__ - INFO - Test case 'GPIO Test 1' result: {'status': 'success', 'parameters': {'gpio_pin': 17, 'state': 'high', 'duration': 5}}
+2024-11-27 21:23:40,446 - __main__ - INFO - Test case 'UART Test 1' result: {'status': 'success', 'parameters': {'port': '/dev/ttyUSB0', 'baud_rate': 9600, 'message': 'Hello, world!'}}
+2024-11-27 21:23:40,446 - __main__ - INFO - Test case 'GPIO Test 2' result: {'status': 'success', 'parameters': {'gpio_pin': 23, 'state': 'low', 'duration': 3}}
+2024-11-27 21:23:40,446 - __main__ - INFO - Test case 'UART Test 2' result: {'status': 'success', 'parameters': {'port': '/dev/ttyUSB1', 'baud_rate': 19200, 'message': 'Goodbye, world!'}}
+2024-11-27 21:32:19,737 - __main__ - INFO - Starting simulation...
+2024-11-27 21:32:19,738 - __main__ - INFO - Running test case: GPIO Test 1
+2024-11-27 21:32:19,738 - __main__ - INFO - Executing test case: GPIO Test 1 with parameters: {'gpio_pin': 17, 'state': 'high', 'duration': 5}
+2024-11-27 21:32:19,738 - __main__ - INFO - GPIO Test on pin 17: Setting state to high for 5 seconds
+2024-11-27 21:32:24,743 - __main__ - INFO - GPIO Test completed on pin 17: Final state high
+2024-11-27 21:32:24,743 - __main__ - INFO - Running test case: UART Test 1
+2024-11-27 21:32:24,744 - __main__ - INFO - Executing test case: UART Test 1 with parameters: {'port': '/dev/ttyUSB0', 'baud_rate': 9600, 'message': 'Hello, world!'}
+2024-11-27 21:32:24,744 - __main__ - INFO - UART Test on port /dev/ttyUSB0 with baud rate 9600: Sending message 'Hello, world!'
+2024-11-27 21:32:26,749 - __main__ - INFO - UART Test completed on port /dev/ttyUSB0: Sent message 'Hello, world!'
+2024-11-27 21:32:26,749 - __main__ - INFO - Running test case: GPIO Test 2
+2024-11-27 21:32:26,749 - __main__ - INFO - Executing test case: GPIO Test 2 with parameters: {'gpio_pin': 23, 'state': 'low', 'duration': 3}
+2024-11-27 21:32:26,750 - __main__ - INFO - GPIO Test on pin 23: Setting state to low for 3 seconds
+2024-11-27 21:32:29,755 - __main__ - INFO - GPIO Test completed on pin 23: Final state low
+2024-11-27 21:32:29,755 - __main__ - INFO - Running test case: UART Test 2
+2024-11-27 21:32:29,755 - __main__ - INFO - Executing test case: UART Test 2 with parameters: {'port': '/dev/ttyUSB1', 'baud_rate': 19200, 'message': 'Goodbye, world!'}
+2024-11-27 21:32:29,755 - __main__ - INFO - UART Test on port /dev/ttyUSB1 with baud rate 19200: Sending message 'Goodbye, world!'
+2024-11-27 21:32:31,761 - __main__ - INFO - UART Test completed on port /dev/ttyUSB1: Sent message 'Goodbye, world!'
+2024-11-27 21:32:31,761 - __main__ - INFO - Test case 'GPIO Test 1' result: {'status': 'success', 'parameters': {'gpio_pin': 17, 'state': 'high', 'duration': 5}}
+2024-11-27 21:32:31,761 - __main__ - INFO - Test case 'UART Test 1' result: {'status': 'success', 'parameters': {'port': '/dev/ttyUSB0', 'baud_rate': 9600, 'message': 'Hello, world!'}}
+2024-11-27 21:32:31,761 - __main__ - INFO - Test case 'GPIO Test 2' result: {'status': 'success', 'parameters': {'gpio_pin': 23, 'state': 'low', 'duration': 3}}
+2024-11-27 21:32:31,761 - __main__ - INFO - Test case 'UART Test 2' result: {'status': 'success', 'parameters': {'port': '/dev/ttyUSB1', 'baud_rate': 19200, 'message': 'Goodbye, world!'}}

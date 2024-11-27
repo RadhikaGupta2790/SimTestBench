@@ -1,2 +1,35 @@
-simulation:
+logging:
+  file: logs/simulation_logs.log
+  level: INFO
+
+fault_injection:
   enabled: true
+  types:
+    - packet_loss
+    - bit_flip
+
+test_cases:
+  - name: GPIO Test 1
+    type: gpio
+    parameters:
+      gpio_pin: 17
+      state: high
+      duration: 5
+  - name: UART Test 1
+    type: uart
+    parameters:
+      port: /dev/ttyUSB0
+      baud_rate: 9600
+      message: "Hello, world!"
+  - name: GPIO Test 2
+    type: gpio
+    parameters:
+      gpio_pin: 23
+      state: low
+      duration: 3
+  - name: UART Test 2
+    type: uart
+    parameters:
+      port: /dev/ttyUSB1
+      baud_rate: 19200
+      message: "Goodbye, world!"
