@@ -12,7 +12,8 @@ class FaultInjection:
         self.fault_types = fault_config.get('types', [])
         self.logger = logging.getLogger(__name__)
 
-    def inject_faults(self, test_case: dict) -> dict:        """
+    def inject_faults(self, test_case: dict) -> dict:        
+        """
         This method will inject faults into the test case if fault injection is enabled.
 
         :param test_case: A dictionary containing the test case details.

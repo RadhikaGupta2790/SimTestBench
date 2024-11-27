@@ -3,7 +3,7 @@
 import logging
 import time
 from typing import Any, Dict
-from utils import setup_logging, load_config
+from SimTestBench.core.utils import setup_logging, load_config
 
 class SimulationEngine:
     def __init__(self, config: Dict[str, Any]) -> None:
