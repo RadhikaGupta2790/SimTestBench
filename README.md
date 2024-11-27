@@ -2,6 +2,7 @@
 
 **SimTestBench** is a Python-based framework for simulation and testing, designed to validate hardware components, embedded systems, and software modules. The project supports simulation of real-world scenarios, fault injection, and automated test execution, making it ideal for validation engineers, software developers, and DFX engineers.
 
+**TThis project is a work in progress. The README outlines the project's purpose and intended structure.**
 ---
 
 ## **Features**
